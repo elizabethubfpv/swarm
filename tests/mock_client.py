@@ -87,7 +87,7 @@ client.set_sequential_responses(
 first_response = client.chat.completions.create()
 print(
     first_response.choices[0].message
-)  # Outputs: role='agent' content='First response'
+)  # Outputs: role='agent' content='First response' test="info add"
 
 # This should return the second mock response
 second_response = client.chat.completions.create()
